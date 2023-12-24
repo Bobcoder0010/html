@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+    margin: 0; /* Resetting default margin */
+    font-family: 'Times New Roman', Times, serif; /* Setting a default font */
+}
+
+.nav {
+    background-color: #7cec1ae6; /* Example color for the navigation background */
+    text-align: center;
+    padding: 20px; 
+    display: block;
+    display: flex;/* Adding some padding for spacing */
+}
+
+.nav ul {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(132, 255, 0);
+    width: 100vw;
+    display: flex;
+    
+
+       }
+
+.nav ul li a{
+     /* Display the list items in a row */
+    margin: 0 10px; 
+   text-decoration: none;/* Adding margin between list items */
+   color: black;
+}
+
+.nav ul li:hover {
+    text-decoration: none; /* Example: Underline on hover */
+    cursor: pointer;
+    text-emphasis-color: black; /* Change cursor on hover */
+}

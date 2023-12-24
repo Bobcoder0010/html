@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+}
+.nav{
+    background-color: aqua;
+    text-align: center;
+    padding: 20%;
+}
+nav.ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden
+}
