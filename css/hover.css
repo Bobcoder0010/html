@@ -26,7 +26,7 @@ body {
        }
 
 .nav ul li a{
-     /* Display the list items in a row */
+     
     margin: 0 10px; 
    text-decoration: none;/* Adding margin between list items */
    color: black;
